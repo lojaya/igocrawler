@@ -1,3 +1,11 @@
+#How To Use
+#Download & install Python 2.7
+#Set the environment variables
+#'pip install tweepy wget' on your terminal
+#signup for twitter dev to get all dev keys
+#replace the keys in this script
+#run this script by using 'python <scriptname>.py' on your terminal
+
 import tweepy
 import os
 from tweepy import OAuthHandler
@@ -5,10 +13,10 @@ import json
 import wget
 import re
 
-consumer_key = 'E5XKKHyKbiaEevFzt43NytwBm'
-consumer_secret = 'K0tZukSHIkSXYuBpzCdqzcUuTdO41wehuSeBptE6JjBmISsoL4'
-access_token = '358077337-02wnlw8U7OyElkANVmIIS3GDWspcnbnVojZaBOrR'
-access_secret = 'EuKESKZ4B3Le3HONY7mneGxsLo1J5YUyF6epTwjBb2t9S'
+consumer_key = 'YOUR-CONSUMER-KEY'
+consumer_secret = 'YOUR-CONSUMER-SECRET'
+access_token = 'YOUR-ACCESS-TOKEN'
+access_secret = 'YOUR-ACCESS-SECRET'
 
 @classmethod
 def parse(cls, api, raw):
